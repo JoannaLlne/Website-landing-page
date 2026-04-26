@@ -1,0 +1,44 @@
+.footer {
+  background-color: black;
+  color: $brown;
+  height: 55vh;
+  width: 100%;
+  padding: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: start;
+
+  h2 {
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 59px;
+  }
+
+  &-left {
+    width: 55%;
+
+    p {
+      padding: 20px 0;
+    }
+
+    .copyright {
+      padding-top: 90px;
+    }
+  }
+
+  &-right {
+    font-size: 2.4rem;
+
+    align-self: end;
+    margin: 0 auto;
+
+    a {
+      color: $brown;
+    }
+
+    i:hover {
+      transform: scale(1.2);
+    }
+  }
+}

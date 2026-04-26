@@ -1,0 +1,52 @@
+.section2 {
+  background-color: #1e1e1e;
+  height: 65vh;
+  width: 90%;
+  margin: 70px auto;
+
+  // display: grid;
+  // grid-template-columns: 55% 45%;
+  position: relative;
+
+  &-text {
+    padding: 70px;
+    width: 50%;
+
+    h2 {
+      color: $brown;
+      font-family: $font3;
+      font-weight: 200;
+      font-size: 2rem;
+      margin: 40px 0 20px;
+    }
+
+    h4 {
+      background-color: #1e1e1e;
+      color: $brown;
+      border: 1px solid $brown;
+    }
+
+    p {
+      color: $beige;
+      font-size: 1.1rem;
+      line-height: 25px;
+    }
+
+    .btn {
+      background-color: $brown;
+      margin-top: 22px;
+      font-size: 0.8rem;
+      font-weight: bold;
+    }
+  }
+
+  &-img {
+    background: url(../images/podcast.jpg) center/cover;
+    height: 520px;
+    width: 520px;
+
+    position: absolute;
+    top: 20px;
+    right: 0;
+  }
+}

@@ -1,0 +1,45 @@
+.section5 {
+  background-color: $brown;
+  height: 45vh;
+  width: 100%;
+  padding: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: start;
+
+  h2 {
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 59px;
+  }
+
+  p {
+    margin: 16px 0;
+  }
+
+  &-left {
+    width: 40%;
+
+    .btn {
+      background-color: #8a5e1c78;
+      font-weight: bold;
+      cursor: pointer;
+      margin: 20px 0;
+    }
+  }
+
+  &-right {
+    width: 50%;
+
+    &-img {
+      background: url(../images/working.jpg) center/cover;
+      height: 52vh;
+      width: 40vw;
+
+      position: relative;
+      top: 60px;
+      right: -240px;
+    }
+  }
+}

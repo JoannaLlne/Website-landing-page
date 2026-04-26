@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'Cormorant';
+  src: url(../../fonts/Cormorant-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: 'LibreBaskerville';
+  src: url(../../fonts/LibreBaskerville-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url(../../fonts/Oswald-VariableFont_wght.ttf);
+}
+
+$brown: #cd8c2c;
+$beige: #f4ebe1;
+$grey: #e3dfd9;
+$grey2: #c8c4bf;
+
+$font1: Cormorant, serif;
+$font2: LibreBaskerville, serif;
+$font3: Oswald, sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $beige;
+}
+
+img {
+  height: 300px;
+  width: auto;
+}
+
+.btn {
+  padding: 10px 15px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  font-size: 0.8rem;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+h4 {
+  display: inline-block;
+  font-family: $font3;
+  font-weight: 515;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.8px;
+  background-color: $grey;
+  padding: 10px 10px;
+}
